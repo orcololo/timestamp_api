@@ -1,18 +1,28 @@
-
 {
-	"name": "fcc-learn-node-with-express",
-	"version": "0.1.0",
-	"dependencies": {
-		"express": "^4.14.0",
-		"body-parser": "^1.15.2",
-		"cookie-parser": "^1.4.3",
-		"fcc-express-bground": "https://github.com/Em-Ant/fcc-express-bground-pkg.git"
-	},
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"engines": {
-		"node": "4.4.5"
-	}
+  "name": "fcc-api-projects-boilerplate",
+  "version": "0.0.1",
+  "description": "An FCC Backend Challenge",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.12.4",
+    "cors": "^2.8.0",
+    "moment": "^2.24.0"
+  },
+  "engines": {
+    "node": "4.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://githost.com/camper/repo.git"
+  },
+  "keywords": [
+    "node",
+    "hyperdev",
+    "express",
+    "freecodecamp"
+  ],
+  "license": "MIT"
 }
